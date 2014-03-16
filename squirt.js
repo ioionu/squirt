@@ -145,7 +145,7 @@ sq.host =  window.location.search.match('sq-dev') ?
       Keen.addEvent('final-word');
       toggle(document.querySelector('.sq .reader'));
       if(window.location.hostname.match('squirt.io|localhost')){
-        window.location.href = '/install.html';
+        //window.location.href = '/install.html';
       } else {
         showTweetButton(nodes.length,
           (nodes.length * intervalMs / 1000 / 60).toFixed(1));
